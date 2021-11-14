@@ -1,5 +1,4 @@
-﻿
-namespace Projeto
+﻿namespace Projeto
 {
     partial class Form6
     {

@@ -19,7 +19,7 @@ namespace Projeto
 
         private void Outro(object sender, EventArgs e)
         {
-            if(comboBoxExclusao.Text.ToString() == "Outro")
+            if (comboBoxExclusao.Text.ToString() == "Outro")
             {
                 labelOutro.Visible = true;
                 textBoxOutro.Visible = true;
