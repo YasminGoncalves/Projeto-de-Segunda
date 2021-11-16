@@ -19,3 +19,6 @@ C:\Users\ygr6\OneDrive\Documentos\GitHub\Projeto-de-Segunda\Projeto\obj\Debug\Pr
 C:\Users\ygr6\OneDrive\Documentos\GitHub\Projeto-de-Segunda\Projeto\obj\Debug\Projeto.csproj.CoreCompileInputs.cache
 C:\Users\ygr6\OneDrive\Documentos\GitHub\Projeto-de-Segunda\Projeto\obj\Debug\Projeto.exe
 C:\Users\ygr6\OneDrive\Documentos\GitHub\Projeto-de-Segunda\Projeto\obj\Debug\Projeto.pdb
+C:\Users\ygr6\OneDrive\Documentos\GitHub\Projeto-de-Segunda\Projeto\obj\Debug\Projeto.Form2.resources
+C:\Users\ygr6\OneDrive\Documentos\GitHub\Projeto-de-Segunda\Projeto\obj\Debug\Projeto.Form5.resources
+C:\Users\ygr6\OneDrive\Documentos\GitHub\Projeto-de-Segunda\Projeto\obj\Debug\Projeto.Form4.resources

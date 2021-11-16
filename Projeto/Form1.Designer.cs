@@ -118,6 +118,7 @@ namespace Projeto
             this.linkLabel1.TabIndex = 7;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Cadastre-se aqui";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Cadastrar);
             // 
             // pictureBox1
             // 
