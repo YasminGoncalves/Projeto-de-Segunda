@@ -31,30 +31,26 @@ namespace Projeto
         {
             this.cadastro = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.textBoxNome = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBoxCidade = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.listBoxEstado = new System.Windows.Forms.ListBox();
+            this.radioButtonMasculino = new System.Windows.Forms.RadioButton();
+            this.radioButtonFeminino = new System.Windows.Forms.RadioButton();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBoxSenha = new System.Windows.Forms.TextBox();
+            this.textBoxLogin = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.textBoxEmail = new System.Windows.Forms.TextBox();
+            this.checkBoxConfirmar = new System.Windows.Forms.CheckBox();
             this.label13 = new System.Windows.Forms.Label();
             this.buttonVoltar = new System.Windows.Forms.Button();
             this.buttonCadastrar = new System.Windows.Forms.Button();
+            this.maskedTextBoxTelefone = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
             // 
             // cadastro
@@ -77,122 +73,108 @@ namespace Projeto
             this.label2.TabIndex = 4;
             this.label2.Text = "Nome:";
             // 
-            // label1
+            // textBoxNome
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(51, 107);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(36, 19);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "CPF:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(97, 66);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(568, 27);
-            this.textBox1.TabIndex = 6;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(97, 99);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(227, 27);
-            this.textBox2.TabIndex = 7;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(372, 105);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(31, 19);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "RG:";
+            this.textBoxNome.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNome.Location = new System.Drawing.Point(97, 66);
+            this.textBoxNome.Name = "textBoxNome";
+            this.textBoxNome.Size = new System.Drawing.Size(568, 27);
+            this.textBoxNome.TabIndex = 6;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(28, 140);
+            this.label4.Location = new System.Drawing.Point(28, 115);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(59, 19);
             this.label4.TabIndex = 9;
             this.label4.Text = "Cidade:";
             // 
-            // textBox3
+            // textBoxCidade
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(406, 99);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(259, 27);
-            this.textBox3.TabIndex = 10;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(97, 132);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(411, 27);
-            this.textBox4.TabIndex = 11;
+            this.textBoxCidade.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxCidade.Location = new System.Drawing.Point(97, 107);
+            this.textBoxCidade.Name = "textBoxCidade";
+            this.textBoxCidade.Size = new System.Drawing.Size(411, 27);
+            this.textBoxCidade.TabIndex = 11;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(531, 138);
+            this.label5.Location = new System.Drawing.Point(531, 113);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(57, 19);
             this.label5.TabIndex = 12;
             this.label5.Text = "Estado:";
             // 
-            // listBox1
+            // listBoxEstado
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Items.AddRange(new object[] {
-            "SP",
+            this.listBoxEstado.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBoxEstado.FormattingEnabled = true;
+            this.listBoxEstado.ItemHeight = 19;
+            this.listBoxEstado.Items.AddRange(new object[] {
+            "",
+            "AC",
+            "AL",
+            "AP",
+            "AM",
+            "BA",
+            "CE",
+            "DF",
+            "ES",
+            "GO",
+            "MA",
             "MT",
-            "RJ",
-            "PI",
+            "MS",
             "MG",
+            "PA",
+            "PB",
+            "PR",
+            "PE",
+            "PI",
+            "RJ",
+            "RN",
+            "RS",
+            "RO",
+            "RR",
             "SC",
-            "TO",
-            "PE"});
-            this.listBox1.Location = new System.Drawing.Point(594, 132);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(71, 30);
-            this.listBox1.TabIndex = 14;
+            "SP",
+            "SE",
+            "TO"});
+            this.listBoxEstado.Location = new System.Drawing.Point(594, 109);
+            this.listBoxEstado.Name = "listBoxEstado";
+            this.listBoxEstado.Size = new System.Drawing.Size(71, 23);
+            this.listBoxEstado.TabIndex = 14;
             // 
-            // radioButton1
+            // radioButtonMasculino
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(341, 172);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(73, 17);
-            this.radioButton1.TabIndex = 19;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Masculino";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButtonMasculino.AutoSize = true;
+            this.radioButtonMasculino.Location = new System.Drawing.Point(331, 147);
+            this.radioButtonMasculino.Name = "radioButtonMasculino";
+            this.radioButtonMasculino.Size = new System.Drawing.Size(73, 17);
+            this.radioButtonMasculino.TabIndex = 19;
+            this.radioButtonMasculino.TabStop = true;
+            this.radioButtonMasculino.Text = "Masculino";
+            this.radioButtonMasculino.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // radioButtonFeminino
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(430, 172);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(67, 17);
-            this.radioButton2.TabIndex = 20;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Feminino";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButtonFeminino.AutoSize = true;
+            this.radioButtonFeminino.Location = new System.Drawing.Point(410, 147);
+            this.radioButtonFeminino.Name = "radioButtonFeminino";
+            this.radioButtonFeminino.Size = new System.Drawing.Size(67, 17);
+            this.radioButtonFeminino.TabIndex = 20;
+            this.radioButtonFeminino.TabStop = true;
+            this.radioButtonFeminino.Text = "Feminino";
+            this.radioButtonFeminino.UseVisualStyleBackColor = true;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(264, 172);
+            this.label8.Location = new System.Drawing.Point(264, 147);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(60, 19);
             this.label8.TabIndex = 21;
@@ -202,7 +184,7 @@ namespace Projeto
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(38, 208);
+            this.label9.Location = new System.Drawing.Point(38, 183);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(49, 19);
             this.label9.TabIndex = 22;
@@ -212,79 +194,70 @@ namespace Projeto
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(35, 246);
+            this.label10.Location = new System.Drawing.Point(35, 221);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(52, 19);
             this.label10.TabIndex = 23;
             this.label10.Text = "Senha:";
             // 
-            // textBox7
+            // textBoxSenha
             // 
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(97, 238);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(227, 27);
-            this.textBox7.TabIndex = 24;
+            this.textBoxSenha.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxSenha.Location = new System.Drawing.Point(97, 213);
+            this.textBoxSenha.Name = "textBoxSenha";
+            this.textBoxSenha.Size = new System.Drawing.Size(227, 27);
+            this.textBoxSenha.TabIndex = 24;
             // 
-            // textBox8
+            // textBoxLogin
             // 
-            this.textBox8.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(97, 200);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(227, 27);
-            this.textBox8.TabIndex = 25;
+            this.textBoxLogin.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxLogin.Location = new System.Drawing.Point(97, 175);
+            this.textBoxLogin.Name = "textBoxLogin";
+            this.textBoxLogin.Size = new System.Drawing.Size(227, 27);
+            this.textBoxLogin.TabIndex = 25;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(17, 172);
+            this.label11.Location = new System.Drawing.Point(17, 147);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(70, 19);
             this.label11.TabIndex = 26;
             this.label11.Text = "Telefone:";
             // 
-            // textBox9
-            // 
-            this.textBox9.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(97, 166);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(137, 27);
-            this.textBox9.TabIndex = 27;
-            this.textBox9.Text = "( _ _ ) _ _ _ _ _ _ _ _ _ ";
-            // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(38, 281);
+            this.label12.Location = new System.Drawing.Point(38, 256);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(49, 19);
             this.label12.TabIndex = 28;
             this.label12.Text = "Email:";
             // 
-            // textBox10
+            // textBoxEmail
             // 
-            this.textBox10.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(97, 273);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(568, 27);
-            this.textBox10.TabIndex = 29;
+            this.textBoxEmail.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxEmail.Location = new System.Drawing.Point(97, 248);
+            this.textBoxEmail.Name = "textBoxEmail";
+            this.textBoxEmail.Size = new System.Drawing.Size(568, 27);
+            this.textBoxEmail.TabIndex = 29;
             // 
-            // checkBox1
+            // checkBoxConfirmar
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(289, 314);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 30;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBoxConfirmar.AutoSize = true;
+            this.checkBoxConfirmar.Location = new System.Drawing.Point(289, 289);
+            this.checkBoxConfirmar.Name = "checkBoxConfirmar";
+            this.checkBoxConfirmar.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxConfirmar.TabIndex = 30;
+            this.checkBoxConfirmar.UseVisualStyleBackColor = true;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(38, 311);
+            this.label13.Location = new System.Drawing.Point(38, 286);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(243, 19);
             this.label13.TabIndex = 31;
@@ -293,7 +266,7 @@ namespace Projeto
             // buttonVoltar
             // 
             this.buttonVoltar.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonVoltar.Location = new System.Drawing.Point(296, 354);
+            this.buttonVoltar.Location = new System.Drawing.Point(296, 325);
             this.buttonVoltar.Name = "buttonVoltar";
             this.buttonVoltar.Size = new System.Drawing.Size(104, 36);
             this.buttonVoltar.TabIndex = 32;
@@ -304,12 +277,22 @@ namespace Projeto
             // buttonCadastrar
             // 
             this.buttonCadastrar.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCadastrar.Location = new System.Drawing.Point(296, 401);
+            this.buttonCadastrar.Location = new System.Drawing.Point(296, 372);
             this.buttonCadastrar.Name = "buttonCadastrar";
             this.buttonCadastrar.Size = new System.Drawing.Size(104, 36);
             this.buttonCadastrar.TabIndex = 33;
             this.buttonCadastrar.Text = "Cadastrar";
             this.buttonCadastrar.UseVisualStyleBackColor = true;
+            this.buttonCadastrar.Click += new System.EventHandler(this.buttonCadastrar_Click);
+            // 
+            // maskedTextBoxTelefone
+            // 
+            this.maskedTextBoxTelefone.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maskedTextBoxTelefone.Location = new System.Drawing.Point(97, 143);
+            this.maskedTextBoxTelefone.Mask = "(99) 9 9999-9999";
+            this.maskedTextBoxTelefone.Name = "maskedTextBoxTelefone";
+            this.maskedTextBoxTelefone.Size = new System.Drawing.Size(134, 27);
+            this.maskedTextBoxTelefone.TabIndex = 34;
             // 
             // Form2
             // 
@@ -319,30 +302,27 @@ namespace Projeto
             this.Controls.Add(this.buttonCadastrar);
             this.Controls.Add(this.buttonVoltar);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.checkBoxConfirmar);
+            this.Controls.Add(this.textBoxEmail);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.textBox9);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.textBoxLogin);
+            this.Controls.Add(this.textBoxSenha);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.radioButtonFeminino);
+            this.Controls.Add(this.radioButtonMasculino);
+            this.Controls.Add(this.listBoxEstado);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBoxCidade);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBoxNome);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.cadastro);
+            this.Controls.Add(this.maskedTextBoxTelefone);
             this.Name = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -353,29 +333,25 @@ namespace Projeto
 
         private System.Windows.Forms.Label cadastro;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBoxNome;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBoxCidade;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.ListBox listBoxEstado;
+        private System.Windows.Forms.RadioButton radioButtonMasculino;
+        private System.Windows.Forms.RadioButton radioButtonFeminino;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBoxSenha;
+        private System.Windows.Forms.TextBox textBoxLogin;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.TextBox textBoxEmail;
+        private System.Windows.Forms.CheckBox checkBoxConfirmar;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button buttonVoltar;
         private System.Windows.Forms.Button buttonCadastrar;
+        private System.Windows.Forms.MaskedTextBox maskedTextBoxTelefone;
     }
 }
