@@ -45,15 +45,18 @@ namespace Projeto
             {
                 if (checkBoxConfirmar.Checked)
                 {
-                    string genero = "NULL";
+                    string genero = "NULL"; string telefone;
 
                     if (radioButtonFeminino.Checked) genero = "'F'";
                     if (radioButtonMasculino.Checked) genero = "'M'";
 
+                    if (maskedTextBoxTelefone.Text.Equals("(  )       -")) telefone = "NULL";
+                    else telefone = $"'{maskedTextBoxTelefone.Text}'";
+
 
                     MySqlConnection conexaoBD = new MySqlConnection("server=localhost;uid=root;pwd='';database=livratech;SslMode=none");
 
-                    string sql = $"insert into usuario (idUsuario, nome, cidade, estado, telefone, genero, email, login, senha) values (NULL, '{textBoxNome.Text}', '{textBoxCidade.Text}', '{listBoxEstado.Text}', '{maskedTextBoxTelefone.Text}', {genero},'{textBoxEmail.Text}', '{textBoxLogin.Text}', SHA1('{textBoxSenha.Text}'))";
+                    string sql = $"insert into usuario (idUsuario, nome, cidade, estado, telefone, genero, email, login, senha) values (NULL, '{textBoxNome.Text}', '{textBoxCidade.Text}', '{listBoxEstado.Text}', {telefone}, {genero},'{textBoxEmail.Text}', '{textBoxLogin.Text}', SHA1('{textBoxSenha.Text}'))";
 
                     MySqlCommand comandoBD = new MySqlCommand(sql, conexaoBD);
 
