@@ -195,7 +195,6 @@
             // 
             // textBoxOutro
             // 
-            this.textBoxOutro.Enabled = false;
             this.textBoxOutro.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F);
             this.textBoxOutro.Location = new System.Drawing.Point(188, 313);
             this.textBoxOutro.Name = "textBoxOutro";
